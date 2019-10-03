@@ -19,7 +19,7 @@ CREATE TABLE Usuario (
  Email VARCHAR UNIQUE,
  Celular SMALLINT UNIQUE,
  RA smallint,
- Foto TEXT,
+ Foto TEXT NULL,
  Id_usuario int FOREIGN KEY REFERENCES Usuario(ID)
  )
  
@@ -70,9 +70,12 @@ dt_fim_matricula datetime DEFAULT null,
 metodologia datetime DEFAULT null,
 recursos varchar(16) DEFAULT null,
 criterio_avaliacao varchar(16) DEFAULT null,
-plano_de_aulas varchar(16) DEFAULT null
+plano_de_aulas varchar(16) DEFAULT null,
 )
 
+PDATE Customers
+SET ContactName='Juan'
+WHERE Country='Mexico'
 ----------------------------------------------------------------------------------
 CREATE TABLE SolicitacaoMatricula (
 ID int NOT NULL IDENTITY,
