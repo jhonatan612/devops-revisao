@@ -1,0 +1,16 @@
+cd <nome da pasta> -> abrir pasta
+cd.. fechar a pasta atual
+cd\  fechar todas as pastas abertas
+
+dir  Lista o conteúdo de uma pasta
+cls  Limpa a tela
+
+md <nome da pasta> cria uma pasta
+
+git --version  Mostra versão instalada do git
+
+--> dentro repositório <--
+git add .   (adiciona os arquivos)
+git commit - "menssagem" (Cria rótulo commit)
+git push (envia os arquivos)
+git pull (atualiza repositório local)
